@@ -6,6 +6,7 @@
     <title>AI french poem generator</title>
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
 <main>
     <form id="poem-generator">
         <input type="text" placeholder="Enter the topic of the french poem" autofocus
-        required autocomplete="off" class="instruction"/>
+        required autocomplete="off" class="instruction"  id="idea"/>
         <input type="submit" class="submit-button"/>
         </form>
 <div class="poem" id="poem">
